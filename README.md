@@ -16,3 +16,14 @@
 ![动画1](https://user-images.githubusercontent.com/79984712/185928295-c4809953-9b14-4f38-9c6e-624e47b9ebeb.gif)
 3.搭配 Typora 上传
 ![动画2](https://user-images.githubusercontent.com/79984712/185929851-bfad172a-c0e5-429e-8a5c-34ec5aaa9160.gif)
+
+## 🖊 使用
+#### 估计把演示的几个Gif看一下就大概知道了~
+#### 贴一张 Postman 的请求图
+![image](https://user-images.githubusercontent.com/79984712/185935938-b1da9112-bcde-4838-95cc-205849d29660.png)
+#### curl示例
+```bash
+curl --location --request POST 'http://192.168.31.2/img/update.php' \
+--form 'file=@"/F:/Desktop/eg.gif"' \
+--form 'key="5grAtvQ0v5Ktq73TmaRM"'
+```
