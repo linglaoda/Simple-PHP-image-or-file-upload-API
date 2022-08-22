@@ -1,6 +1,6 @@
 <?php
 
-//Config
+//Configs
 $image_suffix_list=array(  //允许上传的后缀
     'jpg',
     'jpeg',
